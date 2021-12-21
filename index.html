@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my family</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Raleway:300");
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .bordery
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 373px;
+            height: 52px;   
+            padding: 15px;
+            text-decoration: none;
+            
+            
+        }
+        body
+        {
+            background-color: #272727;
+        }
+        .bordery:hover
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 373px;
+            height: 52px; 
+            padding: 15px;
+            animation: animatee 1.5s linear infinite;
+            text-decoration: none; 
+        }
+        @keyframes animatee {
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
+        .inside-box
+        {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            padding: 15px;
+            width: 363px;
+            margin-left: -10px;
+            margin-top: -10px;
+            font-family: 'Padauk', sans-serif;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        .inside-box a
+        {
+            
+            text-decoration: none;
+        }
+        #lett
+        {
+            margin-left: -5px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .bordery2
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 80px;
+            height: 52px;
+            padding: 15px;
+            margin-left: 408px; 
+            margin-top: -82px;
+            text-decoration: none;
+        }
+        .bordery2:hover
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 80px;
+            height: 52px; 
+            padding: 15px;
+            animation: animatee 1.5s linear infinite;
+            text-decoration: none; 
+        }
+        @keyframes animatee {
+            100%{
+            filter: hue-rotate(360deg);
+            }
+        }
+        .inside-box2 
+        {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            padding: 15px;
+            width: 70px;
+            height: 40px;
+            margin-left: -10px;
+            margin-top: -10px;
+            font-family: 'Padauk', sans-serif;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        #lett2
+        {
+            color: white;
+            margin-left:1px;
+            text-decoration: none;
+        }     
+          .comm2
+        {
+            margin-left: 435px;
+            margin-top: -70px;
+            display:block;
+        }
+        .overlay {
+        position: absolute;
+        height:15 %;
+        width: 16%;
+        opacity: 0;
+        transition: .6s ease;
+        }
+        .inside-box2:hover .overlay
+         {
+        opacity: 1;
+        }
+        .bordery3
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 100px;
+            height: 52px;
+            padding: 15px;
+            margin-left: 524px; 
+            margin-top: -66px;
+        }
+        .bordery3:hover
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 100px;
+            height: 52px; 
+            padding: 15px;
+            animation: animatee 1.5s linear infinite; 
+        }
+        @keyframes animatee {
+            100%{
+            filter: hue-rotate(360deg);
+            }
+        }
+        .inside-box3
+        {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            padding: 15px;
+            width: 90px;
+            height: 40px;
+            margin-left: -10px;
+            margin-top: -10px;
+            font-family: 'Padauk', sans-serif;
+            font-size: 14px;
+        }
+        #lett3
+        {
+            margin-left:-4px;
+            color: white;
+        }     
+          .comm3
+        {
+            margin-left: 559px;
+            margin-top: -65px;
+            display:block;
+        }
+        .overlayy {
+        position: absolute;
+        height:15 %;
+        width: 16%;
+        opacity: 0;
+        transition: .6s ease;
+        }
+        .inside-box3:hover .overlayy
+         {
+        opacity: 1;
+        }
+        .bordery4
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 110px;
+            height: 52px;
+            padding: 15px;
+            margin-left: 659px; 
+            margin-top: -71px;
+        }
+        .bordery4:hover
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 110px;
+            height: 52px; 
+            padding: 15px;
+            animation: animatee 1.5s linear infinite; 
+        }
+        @keyframes animatee {
+            100%{
+            filter: hue-rotate(360deg);
+            }
+        }
+        .inside-box4
+        {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            padding: 15px;
+            width: 100px;
+            height: 40px;
+            margin-left: -10px;
+            margin-top: -10px;
+            font-family: 'Padauk', sans-serif;
+            font-size: 14px;
+        }
+        #lett4
+        {
+            margin-left:-4px;
+            color: white;
+        }     
+          .comm4
+        {
+            margin-left: 702px;
+            margin-top: -68px;
+            display:block;
+        }
+        .overlayyy {
+        position: absolute;
+        height:15 %;
+        width: 16%;
+        opacity: 0;
+        transition: .6s ease;
+        }
+        .inside-box4:hover .overlayyy
+         {
+        opacity: 1;
+        }
+        .bordery5
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 110px;
+            height: 52px;
+            padding: 15px;
+            margin-left: 805px; 
+            margin-top: -69px;
+        }
+        .bordery5:hover
+        {
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            width: 110px;
+            height: 52px; 
+            padding: 15px;
+            animation: animatee 1.5s linear infinite; 
+        }
+        @keyframes animatee {
+            100%{
+            filter: hue-rotate(360deg);
+            }
+        }
+        .inside-box5
+        {
+            background-color: rgb(0, 0, 0);
+            color: aliceblue;
+            padding: 15px;
+            width: 100px;
+            height: 40px;
+            margin-left: -10px;
+            margin-top: -10px;
+            font-family: 'Padauk', sans-serif;
+            font-size: 14px;
+        }
+        #lett5
+        {
+            margin-left:6px;
+            color: white;
+        }     
+          .comm5
+        {
+            margin-left: 845px;
+            margin-top: -65px;
+            display:block;
+            
+        }
+        .overlayyyy {
+        position: absolute;
+        height:15 %;
+        width: 16%;
+        opacity: 0;
+        transition: .6s ease;
+        }
+        .inside-box5:hover .overlayyyy
+         {
+        opacity: 1;
+        }
+        .comm6
+        {
+            margin-left: 945px;
+            margin-top: -70px;
+        }
+        .comm7{
+            margin-top: -585px;
+        }
+        
+                   .input-label 
+                      {
+                        
+                        margin-bottom:4px;
+                        margin-top:20px;
+                        margin-left:700px;
+                        font-size:20;
+                        padding:2px;
+                        border: none;
+                        
+                      }
+                      
+                      .input-type
+                      {
+                          margin-left: 262px;
+                          
+                      width: 350px;
+                      height: 10px;
+                      padding:15px;
+                      font-size:16;
+                      background: linear-gradient(45deg, #fae01a, #0073ee, #000000);
+                      border-radius: 25px;
+                      border-color: #000000;
+                      
+                      }
+                      .input-type:hover
+                      {
+                      
+                     
+                      height: 10px;
+                      padding:15px;
+                      font-size:16;
+                      border-radius: 25px;
+                      background: linear-gradient(45deg, #ffffff, #ffffff, #ffffff);
+                      }
+                     
+                      .hidden
+                      {
+                      display: none;
+                      }
+                      .button 
+                      {
+                      color: white;
+                      padding: 15px 32px;
+                      text-align: center;
+                      text-decoration: none;
+                      display: inline-block;
+                      font-size: 16px;
+                      padding:10px;
+                      margin-top:10px;
+                      cursor: pointer;
+                      margin-left: 555px;
+                      
+                      border-radius: 10px;
+                      }
+.ml6 {
+  width: 400px;
+  font-weight: 900;
+  font-size: 2.5em;
+  margin-top: -450px;
+  margin-left: 1006px;
+  color: #000000;
+  
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+                      
+            
+        
+        
+    </style>
+</head>
+<body>
+    <div class="bordery">
+        <div class="inside-box">
+        <a href="https://www.instagram.com/ll_thesimple.fellow_ll/"><h1 id="lett">Jeshwanth A  [web developer]</h1></a>
+       </div>
+    </div>
+    <div class="bordery2">
+        <div class="inside-box2">
+           <a href="1.jpg"><h1 class="overlay" id="lett2">Home</h1></a>
+        </div>
+    </div>
+    <div class="comm2">
+        <img src="3.jpg" width="50px"height="50px">
+    </div>
+    <div class="bordery3">
+        <div class="inside-box3">
+            <a href="1.jpg"><h1 class="overlayy" id="lett3">Projects</h1></a>
+        </div>
+    </div>
+    <div class="comm3">
+        <img src="2.jpg"  width="50px"height="50px">
+    </div>
+    <div class="bordery4">
+        <div class="inside-box4">
+           <a href="1.jpg"> <h1 class="overlayyy" id="lett4">Feedback</h1></a>
+        </div>
+    </div>
+    <div class="comm4">
+        <img src="1.jpg" width="50px"height="50px">
+    </div>
+    <div class="bordery5">
+        <div class="inside-box5">
+            <a href="1.jpg"><h1 class="overlayyyy" id="lett5">Donate</h1></a>
+        </div>
+    </div>
+    <div class="comm5">
+        <img src="4.jpg" width="50px"height="50px">
+    </div>
+
+    <div class="comm6">
+        <img src="5.jpg" width="421px"height="663px">
+    </div>
+    <div class="comm7">
+        <img src="6.jpg" width="950px"height="581px">
+    </div>
+
+    <form method="post" autocomplete="on" name="google-sheet" id = "register-form">
+        <h1 class="ml6">
+            <span class="text-wrapper">
+              <span class="letters">Want a Website ?</span>
+            </span>
+          </h1>
+          
+          
+
+          <div class = "input-label">
+            <center><input class="input-type" type="text"name="name" placeholder="your's name *" value="" required=""/><center>
+           </div>
+           <div class = "input-label">
+            <center><input class="input-type" type="text"name="contact" placeholder="email / phone number*" value="" required=""/><center>
+           </div>
+           <div class = "input-label" >
+            <center><input class = "input-type" list = "type of website" placeholder="Type of website*"name = "type"required=""/></center>
+            <datalist id="type of website">
+              <option value ="Magazine websites">
+              <option value ="E-commerce websites">
+              <option value ="Blogs">
+              <option value ="Portfolio websites">
+              <option value ="Social media websites">
+            </datalist>
+           </div>
+           <div class="hidden">
+            <input type="date" name="Date" id="date">
+            <input type="text" name="Time" id="time">
+           </div>
+
+           <div class="button">
+            <center> <input type="submit" class="button" value="Submit" name="submit" style="background-color: #002bff;" id="then">
+            <input type="button" class="button" value="Please Wait" style="display: none;background-color: #fa3a00;margin-left: 540px;"  id="now">
+            <input type="button" class="button" value="Submitted" style="display: none;background-color: #2eb11d;margin-left: 540px"  id="after"> </center>
+          </div>
+  
+  
+           
+           <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxmWE40X6KWNAxEyS-Bs39_GwVYBU78h39wnzmu7pZvg8BroEDr8SpPLea17NLSTv4nQw/exec'
+            const form = document.forms['google-sheet']
+
+            document.addEventListener('submit',e =>{
+            e.preventDefault()
+            document.getElementById("then").style.display = "none"
+            document.getElementById("now").style.display = "block"
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert('Thank You '))
+            .then(response => document.getElementById("now").style.display = "none")
+            .then(response => document.getElementById("after").style.display = "block")
+            .catch(error => console.error('Error!', error.message))
+        })
+          </script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+          <script>
+            function on() {
+              document.getElementById("overlay").style.display = "block";
+            }
+            
+            function off() {
+              document.getElementById("overlay").style.display = "none";
+            }
+
+            var field = document.querySelector('#date');
+            var date = new Date();
+
+            field.value = date.getFullYear().toString() + '-' + (date.getMonth() + 1).toString().padStart(2, 0) + '-' + date.getDate().toString().padStart(2, 0);
+
+            var field = document.querySelector('#time');
+            var date = new Date();
+
+            field.value = date.getHours().toString() + ':' + (date.getMinutes() + 1).toString().padStart(2, 0) + ':' + date.getSeconds().toString().padStart(2, 0)
+        </script>
+
+   
+      
+
+    
+
+   
+
+    <script>
+        // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+    </script>
+   </form> 
+</body>
+</html>
